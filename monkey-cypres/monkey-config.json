@@ -1,0 +1,22 @@
+{
+    "projectId":"Ghost-Monkey-with-cypress",
+    "baseUrl":"http://localhost:3001/ghost/#/dashboard",
+    "env":{
+        "appName":"Ghost",
+        "events":1500,
+        "delay":1000,
+        "seed":4000,
+        "pctClicks":19,
+        "pctScroll":17,
+        "pctSelectors":16,
+        "pctKeys":16,
+        "pctSpKeys":16,
+        "pctPgNav":16
+    },
+    "integrationFolder": "./cypress/integration/monkey",
+    "pluginsFile": "./cypress/plugins/index.js",
+    "pageLoadTimeout":120000,
+    "defaultCommandTimeout":120000,
+    "testFiles": "monkey.js",
+    "videosFolder":"./results"
+}
