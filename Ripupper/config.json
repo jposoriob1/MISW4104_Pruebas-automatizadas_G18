@@ -1,0 +1,11 @@
+{
+    "url": "http://localhost:3001/ghost/",
+    "headless": false,
+    "depthLevels": 2,
+    "inputValues": true,
+    "values": {
+        "identification": "test@test.com",
+        "password": "Semeolvido123"
+    },
+    "browsers": ["chromium"]
+}
